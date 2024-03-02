@@ -1,0 +1,79 @@
+/* 
+=============
+Index
+=============
+QR Code line 13
+
+Main text line 24
+
+Attribution line 36
+
+*/
+
+/*
+=============
+QR Code
+=============
+*/
+
+.qrcode {
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+/*
+=============
+Main Text
+=============
+*/
+
+body {
+    font-family: "Outfit";
+    font-size: 15px;
+}
+
+.qrtitle {
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+}
+
+.sub {
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+}
+
+/*
+=============
+Main
+=============
+*/
+
+.main {
+    margin: 50px;
+}
+
+/*
+=============
+Attribution
+=============
+*/
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/*
+=============
+Background
+=============
+*/
+
+body {
+    background: hsl(212, 45%, 89%);
+}
